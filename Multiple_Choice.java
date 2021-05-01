@@ -4,11 +4,11 @@ public class Multiple_Choice
     public static void main(String[] args){
         
         Scanner input = new Scanner(System.in);
-        String ques = "This is a sample question??";
-        String Choiceone = "1. Choice 1";
-        String choicetwo = "2. Choice 2";
-        String choicethree = "3. Choice 3";
-        String correct = choicetwo;
+        String ques = "This is a sample question??";  //Replace this question
+        String Choiceone = "1. Choice 1";       // Option 1
+        String choicetwo = "2. Choice 2";       // Option 2
+        String choicethree = "3. Choice 3";     // Option 3
+        String correct = choicetwo;             // Correct Option
         String option = "None";
         boolean repeat = true;
          while(repeat){
